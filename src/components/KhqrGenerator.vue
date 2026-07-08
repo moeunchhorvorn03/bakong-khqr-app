@@ -4,10 +4,11 @@
             <h1>KHQR Generator</h1>
             <p>Generate a Bakong KHQR payment code</p>
         </header>
-
+        
         <section class="card">
             <button class="generate-btn" :disabled="loading" @click="generate">
-                {{ loading ? "Generating…" : "Generate QR Code" }}
+                {{ loading ? "Generating…" : "Generate QR Code" }} 
+                <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" />
             </button>
             <button class="generate-btn" :disabled="loading" @click="openSuccessPopup">
                 Open Success Popup

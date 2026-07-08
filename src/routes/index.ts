@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import KhqrGenerator from "../components/KhqrGenerator.vue";
+import KHQRGenerator from "../components/KHQRGenerator.vue";
 
 const routes = [
     {
         path: '/',
-        component: KhqrGenerator,
+        component: KHQRGenerator,
     }
 ];
 
